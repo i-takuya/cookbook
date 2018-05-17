@@ -1,0 +1,10 @@
+{
+  "plugins": ["node"],
+  "extends": ["eslint:recommended", "plugin:node/recommended"],
+  "rules": {
+    "semi": ["warn", "always"],
+    "eol-last": "error",
+    "indent": ["error", 2],
+    "keyword-spacing": "warn"
+  }
+}

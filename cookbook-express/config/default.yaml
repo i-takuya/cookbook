@@ -1,0 +1,15 @@
+logs:
+  appenders:
+    access:
+      type: dateFile
+      filename: logs/access.log
+      pattern: -yyyy-MM-dd
+    system:
+      type: file
+      filename: logs/debug.log
+  categories:
+    default:
+      appenders:
+        - access
+        - system
+      level: debug
